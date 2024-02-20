@@ -1,1 +1,1 @@
-The project is currently just a readme file
+A to do list with the ability to add, delete, complete, and view tasks
