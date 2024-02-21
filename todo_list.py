@@ -15,7 +15,7 @@ def Add_new(tasks):
     return tasks
 #function to print all tasks, frequently used inside other functions
 def View_tasks(tasks):
-    print("\n----------------\n")
+    print("\n-----------------\n")
     #runs once for every element in list, except from 1 - element+1 instead of 0 - element
     for i in range(1, len(tasks) + 1):  
         print(f"Task {i}: {tasks[i-1]}")
@@ -45,6 +45,6 @@ while run == True:
         delete_tasks(tasks_list)
     elif action == 5:
         run = False
+    #adding a random comment
     #used to help readability of ouput
-    print("\n----------------\n")
-
+    print("\n-----------------\n")
